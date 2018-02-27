@@ -1,0 +1,59 @@
+body{
+  background: #a90329; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #a90329 0%, #700084 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #a90329 0%,#700084 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #a90329 0%,#700084 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#700084',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+#mainscreen{
+
+  padding-top: 8%;
+
+}
+.jumbotron {
+  background-image: url("/img/bg.jpg");
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(85, 4, 4, 0.59);
+  background-blend-mode: color;
+  height: 100%;
+  box-shadow: 0px 1px 19px;
+}
+.splash h1,p {
+  text-align: center;
+  color: rgb(236, 216, 216);
+}
+.splash a {
+  background-color: rgb(147, 27, 58);
+  border-color: rgba(88, 22, 39, 0.64);
+}
+.splash a:hover {
+  background-color: rgb(110, 24, 46);
+  border-color: rgba(88, 22, 39, 0.64);
+}
+
+.card {
+
+  text-align: left;
+  padding: 2.5%;
+}
+.card h4{
+
+  text-align:center;
+  padding: 2.5%;
+}
+
+.card-img-top {
+  width: 10%;
+
+}
+.fsubmit {
+  margin-top: 10px;
+}
+button.close {
+  text-align:right;
+  color:rgb(186, 16, 16);
+
+
+}
