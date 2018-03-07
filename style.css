@@ -1,3 +1,6 @@
-.sign-up {
-  color: rgb(217, 38, 165);
+body {
+  height: -webkit-fill-available;
+}
+.sign-up-form{
+  display: none;
 }

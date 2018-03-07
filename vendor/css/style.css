@@ -4,6 +4,7 @@ body{
   background: -webkit-linear-gradient(-45deg, #a90329 0%,#700084 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(135deg, #a90329 0%,#700084 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#700084',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  height: auto;
 }
 #mainscreen{
 
@@ -33,6 +34,16 @@ body{
   border-color: rgba(88, 22, 39, 0.64);
 }
 
+.sign-up-form{
+
+}
+#home-sign-up{
+  display: none;
+}
+#home-login{
+  display: none;
+}
+
 .card {
 
   text-align: left;
@@ -54,6 +65,4 @@ body{
 button.close {
   text-align:right;
   color:rgb(186, 16, 16);
-
-
 }
